@@ -12,6 +12,10 @@ public class Apple {
     public Apple() {
     }
 
+    public Apple(Double weight) {
+        this.weight = weight;
+    }
+
     public Apple(String color, double weight) {
         this.color = color;
         this.weight = weight;
